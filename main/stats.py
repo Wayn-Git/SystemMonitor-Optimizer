@@ -64,6 +64,7 @@ class SysStat:
     def display(self):
         pprint.pprint(self.get_stats())
 
-sys = SysStat()
-
-sys._display()
+# Remove these lines or use them for testing only:
+# if __name__ == "__main__":
+#     sys = SysStat()
+#     sys.display()  # ✅ Correct method name

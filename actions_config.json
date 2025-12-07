@@ -1,0 +1,12 @@
+{
+    "email": {
+        "enabled": false,
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "sender_email": "your-email@gmail.com",
+        "sender_password": "your-app-password",
+        "recipient_email": "admin@example.com"
+    },
+    "log_file": "system_alerts.log",
+    "alert_history": "alert_history.json"
+}

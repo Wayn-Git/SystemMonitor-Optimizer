@@ -1,0 +1,37 @@
+{
+    "cpu_high": {
+        "name": "High CPU Usage",
+        "condition": "cpu.usage > 80",
+        "severity": "warning"
+    },
+    "cpu_critical": {
+        "name": "Critical CPU Usage",
+        "condition": "cpu.usage > 95",
+        "severity": "critical"
+    },
+    "ram_high": {
+        "name": "High Memory Usage",
+        "condition": "ram.percent > 85",
+        "severity": "warning"
+    },
+    "ram_critical": {
+        "name": "Critical Memory Usage",
+        "condition": "ram.percent > 95",
+        "severity": "critical"
+    },
+    "disk_high": {
+        "name": "High Disk Usage",
+        "condition": "disk.percent > 80",
+        "severity": "warning"
+    },
+    "disk_critical": {
+        "name": "Critical Disk Usage",
+        "condition": "disk.percent > 90",
+        "severity": "critical"
+    },
+    "disk_free_low": {
+        "name": "Low Free Disk Space",
+        "condition": "disk.free < 10",
+        "severity": "warning"
+    }
+}
